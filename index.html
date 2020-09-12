@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo-list</title>
+    <script src="todo.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+
+</head>
+<body class="container">
+    <h2 class="btn-group"> Todo -list </h2>
+    <div>
+        <textarea type="text" id="nameId" placeholder="Enter task"></textarea><br>
+         <button type="button" id="submitBtn" value="submit" onclick="submit()">Submit</button><br>
+    </div>
+    <div>
+        <input type="text" id="delete" placeholder="Enter task id to delete"><br>
+        <button type="button" id="deleteBtn" value="Delete" onclick="deleteTodo()">Delete</button><br>
+    </div>
+    <p id="todoOutput">
+
+    </p>
+    
+</body>
+</html>
